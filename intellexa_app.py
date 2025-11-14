@@ -9,7 +9,7 @@ import pandas as pd
 # =============================
 # Intellexa AI Tutor Settings
 # =============================
-OPENROUTER_API_KEY = os.getenv("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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 MODEL_ID = "gpt-4o-mini"
 
 # -------------------------
