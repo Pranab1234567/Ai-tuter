@@ -9,14 +9,14 @@ import pandas as pd
 # =============================
 # Intellexa AI Tutor Settings
 # =============================
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = os.getenv("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")
 MODEL_ID = "gpt-4o-mini"
 
 # -------------------------
 # Page config
 # -------------------------
 st.set_page_config(
-    page_title="🧠 Intellexa AI Tutor",
+    page_title="🧠 AI Tutor",
     page_icon="🧠",
     layout="wide"
 )
